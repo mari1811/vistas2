@@ -1,17 +1,49 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-    </head>
-    <body>
-        <?php
-        // put your code here
-        ?>
-    </body>
-</html>
+
+<?php echo "<body>\n";
+echo " \n"; 
+echo " <div id=\"container\"></div>\n"; 
+echo " <script id=\"template\">\n"; 
+echo " <div class=\"flip-card\" on-click=\"toggle('flipCard')\">{{ flipCard ? 'Reset' : 'Animate' }}</div>\n"; 
+echo " <div class=\"contact-wrapper\">\n"; 
+echo " <div class=\"envelope {{ flipCard ? 'active' : '' }}\">\n"; 
+echo " <div class=\"back paper\"></div>\n"; 
+echo " <div class=\"content\">\n"; 
+echo " <div class=\"form-wrapper\">\n"; 
+echo " <form>\n"; 
+echo " <div class=\"top-wrapper\">\n";
+echo " <div class=\"input\">\n"; 
+echo " <label>Name</label>\n"; 
+echo " <input type=\"text\" name=\"name\"/>\n"; 
+echo " </div>\n"; 
+echo " <div class=\"input\">\n"; 
+echo " <label>Phone</label>\n"; 
+echo " <input type=\"text\" name=\"phone\"/>\n"; 
+echo " </div>\n"; 
+echo " <div class=\"input\">\n";
+echo " <label>Email</label>\n"; 
+echo " <input type=\"text\" name=\"_replyto\"/>\n"; 
+echo " </div>\n"; 
+echo " </div>\n"; 
+echo " <div class=\"bottom-wrapper\">\n"; 
+echo " <div class=\"input\">\n"; 
+echo " <label>Subject</label>\n"; 
+echo " <input type=\"text\" name=\"_subject\"/>\n"; 
+echo " </div>\n"; 
+echo " <div class=\"input\">\n"; 
+echo " <label>Message</label>\n"; 
+echo " <textarea rows=\"5\" name=\"message\"></textarea>\n";
+echo " </div>\n"; 
+echo " <div class=\"submit\">\n"; 
+echo " <div class=\"submit-card\" on-click=\"toggle('flipCard')\">Send Mail</div>\n"; 
+echo " </div>\n"; 
+echo " </div>\n"; 
+echo " </form>\n"; 
+echo " </div>\n"; 
+echo " </div>\n"; 
+echo " <div class=\"front paper\"></div>\n";
+echo " </div>\n";
+echo " </div>\n"; 
+echo " \n";
+echo " </script>\n";
+echo " \n";
+echo "</body>\n"; ?>
