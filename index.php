@@ -1,5 +1,5 @@
 
-<?php echo "<%@page contentType=\"text/html\" pageEncoding=\"UTF-8\"%>\n";
+<?php 
 echo "<!DOCTYPE html>\n"; 
 echo "<html>\n";
 echo " <head>\n"; 
