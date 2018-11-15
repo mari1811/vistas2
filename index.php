@@ -8,7 +8,7 @@ echo " <title>JSP Page</title>\n";
 echo " <link href=\"css/bootstrap.min.css\" rel=\"stylesheet\" type=\"text/css\"/>\n"; 
 echo " <link href=\"css/newcss.css\" rel=\"stylesheet\" type=\"text/css\"/>\n"; 
 echo " </head>\n";
-echo " <body > \n"; 
+echo " <body background=\"imagenes/fondo3.png\"> \n";
 echo " <div class=\"container well\"id=\"login\"> \n"; 
 echo " <form>\n"; 
 echo " <div class=\"form-group\">\n"; 
