@@ -19,7 +19,7 @@ echo " <input type=\"password\" class=\"form-control\" id=\"exampleInputPassword
 echo " </div>\n"; 
 echo " <center> <button type=\"submit\" class=\"btn btn-primary\"id=\"iniciar\">Iniciar sesión</button></center>\n"; 
 echo " <text>¿No tienes una cuenta? </text>\n"; 
-echo "<a href=\"vistas2/registrar.php\" >Registrate</a>\n"; 
+echo "<a href=\"https://github.com/mari1811/vistas2/blob/master/registar.php\" >Registrate</a>\n"; 
 echo "</form> \n"; 
 echo " </div>\n"; 
 echo " </body>\n"; 
