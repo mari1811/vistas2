@@ -1,5 +1,5 @@
 
-/* <?php 
+<?php 
 echo "<!DOCTYPE html>\n"; 
 echo "<html>\n";
 echo " <head>\n"; 
@@ -23,4 +23,4 @@ echo "<a href=\"https://p124.herokuapp.com/registar.php\" >Registrate</a>\n";
 echo "</form> \n"; 
 echo " </div>\n"; 
 echo " </body>\n"; 
-echo "</html>\n"; ?> */
+echo "</html>\n"; ?>
