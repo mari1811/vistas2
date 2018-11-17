@@ -42,7 +42,7 @@ echo " <input name=\"confirmar\" type=\"password\" class=\"form-control input-lg
 echo "	\n"; 
 echo " </div>\n"; 
 echo "	\n"; 
-echo " <a href=\"index.php\" ><button type=\"submit\" class=\"btn btn-danger btn-lg\"id=\"regresar\">Regresar</button></a>\n";
+echo " <a href=\"javascript:history.go(-1)\" ><button type=\"submit\" class=\"btn btn-danger btn-lg\"id=\"regresar\">Regresar</button></a>\n";
 echo " <button type=\"submit\" class=\"btn btn-success btn-lg\"id=\"registrar\">Registrar</button>\n"; 
 echo " \n"; 
 echo "	</form>\n"; 
