@@ -20,7 +20,7 @@ echo " <input type=\"password\" class=\"form-control input-lg\" id=\"exampleInpu
 echo " </div>\n"; 
 echo " <center> <button type=\"submit\" class=\"btn btn-primary btn-lg\"id=\"iniciar\">Iniciar sesión</button></center>\n"; 
 echo " <text>¿No tienes una cuenta? </text>\n"; 
-echo "<a href=\"javascript:history.go(+1)\" >Registrate</a>\n"; 
+echo "<a href=\"registrar.php\" >Registrate</a>\n"; 
 echo "</form> \n"; 
 echo " </div>\n"; 
 echo " </body>\n";
