@@ -74,7 +74,7 @@ echo "	<div class=\"six\">\n";
 echo "	<br>\n"; 
 echo "	<center><img src=\"imagen1.png\" class=\"img-rounded\" alt=\"Cinque Terre\" width=\"500\" height=\"236\"></center>\n"; 
 echo "	<br>\n";
-echo "	<a href=\"evento.html\"><center><button type=\"submit\" style='width:190px; height:40px' class=\"btn btn-primary btn-lg\">Ver más</button></center></a>\n"; 
+echo "	<a href=\"evento.php\"><center><button type=\"submit\" style='width:190px; height:40px' class=\"btn btn-primary btn-lg\">Ver más</button></center></a>\n"; 
 echo "	</div><!--closing column 6-->\n";
 echo "\n"; 
 echo "	<div class=\"six\">\n"; 
